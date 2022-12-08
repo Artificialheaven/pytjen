@@ -2,7 +2,6 @@ import traceback
 
 
 temp = ''							# 代码缓冲区
-func_list = []						# 函数列表
 global_var_table = {}				# 全局变量列表, 每次都要继承
 while True:  						# 启动循环
 	try:
